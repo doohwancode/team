@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>신병오 팀장님 퇴직영상</title>
+
+  <meta property="og:title" content="신병오 팀장님 퇴직영상"/>
+  <meta property="og:description" content="그는 직원들의 울타리였습니다."/>
+  <meta property="og:image" content="킥보드금지.png"/>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      font-family: 'Gothic A1', sans-serif;
+    } /* CSS rules to specify families 여기다 붙여넣기 */
+
+    .mytitle {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      margin-top: 30px;
+    }
+
+    .btn {
+      width: 300px;
+      height: 40px;
+
+      border: 2px solid #e8344e;
+
+      text-decoration: none;
+      text-align: center;
+
+      line-height: 40px; /* 내높이랑 같음 가운데 옴 */
+
+      color: #e8344e;
+      font-weight: bold;
+      
+      border-radius: 40px;
+    }
+
+    .btn:hover {
+      background-color: #e8344e;
+      color: white;
+    }
+
+    .box {
+      width: 1000px;
+
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+      margin: 40px auto 0px auto;
+    }
+
+    .pic {
+      width: 500px;
+      height: 500px;
+
+      margin-right: 30px;
+
+      border-radius: 24px;
+
+      background-image: url('톤체어.jpg');
+      background-position: center;
+      background-size: cover;
+    }
+
+    .story {
+      width: 450px;
+      height: 500px;
+    }
+
+    .img {
+      width: 450px;
+      height: 300px;
+
+      background-image: url('톤체어2.jpeg');
+      background-position: center;
+      background-size: cover; /* 보통은 cover */
+
+      border-radius: 24px;
+    }
+
+    .story > h2 {
+      margin: 20px 0px 0px 0px;
+      color: royalblue;
+    }
+
+    .story > h3 {
+      margin: 5px 0px 0px 0px;
+      font-size: 16px;
+      color: gray;
+
+      font-weight: normal;
+    }
+
+    .story > p {
+      line-height: 24px;
+    }
+
+    @media screen and (max-width: 640px) {
+      h1 {
+        font-size: 25px;
+      }
+      .box {
+        flex-direction: column;
+        width: 100%;
+      }
+      .pic {
+        width: 100%;
+        height: 200px;
+
+        margin: 0;
+      }
+
+      .story {
+        width: 100%;
+        height: auto;
+
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      .img {
+        width: 100%;
+        height: 200px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="mytitle">
+    <h1>제2의 인생을 응원합니다!</h1>
+    <a class="btn" href="vllo.MP4" target="_blank">신병오 팀장님 퇴직영상 보러가기 ></a>
+  </div>
+  <div class="box">
+    <div class="pic"></div>
+    <div class="story">
+      <div class="img"></div>
+      <h2>남산지구대</h2>
+      <h3>대구 중구 달구벌대로 2048</h3>
+      <p>
+        이제부터 퀵보드<br>
+        무면허 10만 원, 음주운전 10만 원, 2인 탑승하면 4만 원, 안전모 안쓰면 2만 원, 13세 이하 어린이가 타면 부모 10만 원, 우리 조심해서 안전도 지키고 돈도 지켜봐요!
+      </p>
+    </div>
+  </div>
+</body>
+</html>
